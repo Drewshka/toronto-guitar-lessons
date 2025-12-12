@@ -215,7 +215,7 @@
             See what my students say about our classes
           </p>
         </div>
-        <div class="flex flex-col gap-8 my-10">
+        <div class="flex flex-col gap-8 mt-10">
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="card p-4 rounded-2xl flex flex-col gap-4">
               <div class="flex items-center gap-4 justify-between flex-wrap">
@@ -282,18 +282,31 @@
           </div>
         </div>
       </section>
-      <section id="services">
-        <p>Book Today</p>
-        <p>Send Me a message</p>
-        <h3>+64 21 42 24 833</h3>
+      <section id="services" class="flex flex-col gap-8 px-8 py-16 p-8">
+        <p class="tag rank rounded-full px-4 py-2 text-center mx-auto">
+          Book Today
+        </p>
+        <p class="indie text-2xl sm:text-3xl md:text-4xl mx-auto text-center">
+          Send Me a message
+        </p>
+        <h3 class="text-5xl sm:text-6xl md:text-7xl mx-auto text-center">
+          +64 21 42 24 833
+        </h3>
       </section>
     </main>
-    <footer>
-      <a target="_blank" href="https://www.linkedin.com/in/jamezmcarthur/">
-        <img
-          src="https://media.licdn.com/dms/image/v2/C5603AQG6Q4W3kWANtw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1630988413596?e=1752105600&v=beta&t=-hYSuomF1nMSIxNHoC8u6BbEYOQeOQbFVYQDD2GcD0s"
-          alt="pfp"
-        />
+    <footer class="py-20 grid place-items-center">
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/andrew-jos-stevenson/"
+        class="flex items-center gap-4 bg-blue-50"
+      >
+        <div class="w-100 h-100 overflow-hidden rounded-xl">
+          <img
+            src="assets/andrew-oldmill.jpeg"
+            alt="Andrew Guitar"
+            class="w-full h-full object-cover object-center filter brightness-90 contrast-110 saturate-120 hue-rotate-40"
+          />
+        </div>
         <p>LinkedIn</p>
         <i className="fa-brands fa-linkedin-in"></i>
       </a>
