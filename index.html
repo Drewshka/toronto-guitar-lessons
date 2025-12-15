@@ -17,7 +17,9 @@
     <link href="math.css" rel="stylesheet" />
   </head>
 
-  <body class="text-slate-900 min-h-screen relative text-sm sm:text-lg">
+  <body
+    class="text-slate-900 min-h-screen relative text-sm sm:text-lg scroll-smooth"
+  >
     <header
       class="flex justify-between gap-8 p-8 max-w-[1000px] mx-auto w-full"
     >
@@ -26,13 +28,14 @@
       <button
         class="card-button-secondary px-4 py-2 rounded-full whitespace-nowrap opacity-0 pointer-events-none"
       >
-        Book a session
+        Book a lesson
       </button>
       <div class="fixed top-8 right-8">
         <button
+          id="book-lesson-btn-hero"
           class="card-button-secondary px-4 py-2 rounded-full whitespace-nowrap"
         >
-          Book a session
+          Book a lesson
         </button>
       </div>
     </header>
@@ -50,21 +53,21 @@
         </div>
         <p class="text-center max-w-[600px] w-full mx-auto">
           <span class="font-semibold"
-            >Book a one-on-one private maths lesson</span
+            >Book a one-on-one private guitar lesson</span
           >
-          with James, a qualified Engineer and Math Teacher with over 13 years
-          of tutoring experience.
+          with Andrew, a qualified Musician and Guitar Teacher with over 10
+          years of teaching experience.
         </p>
         <div class="flex items-center gap-4 flex-wrap justify-center">
           <div
             class="tag rank px-2 py-0.5 sm:py-1.5 rounded-full sm:text-lg md:text-xl"
           >
-            NCEA IB & Cambridge
+            RCM, Jazz & Contemporary music
           </div>
           <div
             class="tag rank px-2 py-0.5 sm:py-1.5 rounded-full sm:text-lg md:text-xl"
           >
-            Years 5 - 13
+            All Ages
           </div>
           <div
             class="tag rank px-2 py-0.5 sm:py-1.5 rounded-full sm:text-lg md:text-xl"
@@ -76,14 +79,16 @@
           class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 w-fit mx-auto my-4"
         >
           <button
+            id="what-i-teach-btn"
             class="card-button-secondary px-4 py-2 rounded-full text-xl sm:text-2xl md:text-3xl"
           >
             What I teach
           </button>
           <button
+            id="book-lesson-btn-section"
             class="card-button-primary px-4 py-2 rounded-full text-xl sm:text-2xl md:text-3xl"
           >
-            Book a session
+            Book a lesson
           </button>
         </div>
         <div class="w-fit mx-auto my-4 flex flex-col items-center gap-4">
@@ -108,7 +113,8 @@
               What I Teach
             </h3>
             <p class="text-center mx-auto">
-              I have the experience to teach you what you need to know
+              Learn guitar techniques, music theory, and performance skills at
+              your own pace. Suitable for all ages and levels.
             </p>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 my-10">
@@ -118,15 +124,12 @@
               <h4
                 class="bg-slate-950 border border-solid border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200"
               >
-                NCEA
+                Classical Guitar
               </h4>
-              <p>&rarr; Personalized support for Levels 1, 2, and 3</p>
-              <p>&rarr; Focus on internal assessments, exams, and credits</p>
-              <p>
-                &rarr; Assistance with problem-solving techniques and past exam
-                papers
-              </p>
-              <p>&rarr; Guidance on achieving Merit and Excellence standards</p>
+              <p>&rarr; Personalized support for Levels 1-6</p>
+              <p>&rarr; Technique, fingerstyle, and repertoire</p>
+              <p>&rarr; Focus on exams, performances, and musical expression</p>
+              <p>&rarr; Reading sheet music and sight-reading skills</p>
             </div>
             <div
               class="border border-solid border-slate-800 hover:border-blue-400 p-4 rounded-lg duration-200 flex flex-col gap-4 group"
@@ -134,19 +137,14 @@
               <h4
                 class="bg-slate-950 border border-solid border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200"
               >
-                International Baccalaureate
+                Jazz & Contemporary
               </h4>
-              <p>&rarr; Help with SL and HL maths curriculum</p>
-              <p>
-                &rarr; Tailored guidance for Internal Assessments (IA) and exam
-                preparation
-              </p>
-              <p>
-                &rarr; In-depth support for core concepts and optional topics
-              </p>
-              <p>
+              <p>&rarr; Chord theory, improvisation, and soloing</p>
+              <p>&rarr; Learn jazz standards and modern styles</p>
+              <p>&rarr; Ear training and performance techniques</p>
+              <!-- <p>
                 &rarr; Effective strategies for high achievement in assessments
-              </p>
+              </p> -->
             </div>
             <div
               class="border border-solid border-slate-800 hover:border-blue-400 p-4 rounded-lg duration-200 flex flex-col gap-4 group"
@@ -154,18 +152,15 @@
               <h4
                 class="bg-slate-950 border border-solid border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200"
               >
-                Cambridge
+                Online & In-Person Lessons
               </h4>
-              <p>&rarr; Tutoring for IGCSE, AS, and A-Level maths</p>
-              <p>&rarr; Expert help with structured revision for exams</p>
-              <p>
-                &rarr; Targeted support for past papers, exam techniques, and
-                challenging topics
-              </p>
-              <p>
+              <p>&rarr; Flexible scheduling for any level</p>
+              <p>&rarr; Personalised lesson plans</p>
+              <p>&rarr; Performance feedback and progress tracking</p>
+              <!-- <p>
                 &rarr; Focus on problem-solving, reasoning, and conceptual
                 understanding
-              </p>
+              </p> -->
             </div>
             <div
               class="border border-solid border-slate-800 hover:border-blue-400 p-4 rounded-lg duration-200 flex flex-col gap-4 group"
@@ -173,30 +168,24 @@
               <h4
                 class="bg-slate-950 border border-solid border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200"
               >
-                General
+                Music Theory & Composition
               </h4>
-              <p>&rarr; Foundational maths support for all age groups</p>
-              <p>
-                &rarr; Build confidence in basic arithmetic, algebra, and
-                geometry
-              </p>
+              <p>&rarr; Learn scales, chords, and harmony</p>
+              <p>&rarr; Songwriting and arranging techniques</p>
               <p>
                 &rarr; Personalized learning pace and flexible tutoring plans
               </p>
-              <p>
-                &rarr; Focus on improving problem-solving and critical thinking
-                skills
-              </p>
-              <p>
+              <p>&rarr; Songwriting and arranging techniques</p>
+              <!-- <p>
                 &rarr; Preparation for general school exams and continuous
                 assessment
-              </p>
+              </p> -->
             </div>
           </div>
           <button
             class="w-fit mx-auto rounded-full px-8 py-4 card-button-secondary text:xl sm:text-2xl md:text-3xl"
           >
-            Book a session
+            Book a lesson
           </button>
         </div>
       </section>
@@ -212,7 +201,7 @@
             What Students Say
           </h3>
           <p class="mx-auto text-center">
-            See what my students say about our classes
+            See what my students say about our lessons
           </p>
         </div>
         <div class="flex flex-col gap-8 mt-10">
@@ -223,10 +212,9 @@
                 <p class="tag dark rounded-full px-2 py-1">Student</p>
               </div>
               <p>
-                Algebra was really hard for me, and I was falling behind. But my
-                tutor goes over everything slowly and doesn&apos;t make me feel
-                dumb for asking questions. Now I actually understand what&apos;s
-                going on in class, and my grades are getting better too.
+                I started guitar lessons with Andrew and quickly learned proper
+                technique. Now I can play my favorite songs and even perform at
+                small gigs!
               </p>
             </div>
             <div class="card p-4 rounded-2xl flex flex-col gap-4">
@@ -235,9 +223,9 @@
                 <p class="tag dark rounded-full px-2 py-1">Student</p>
               </div>
               <p>
-                As someone who hasn&apos;t enjoyed maths before, James made it
-                feel much easier and helped me make sense of what I am learning
-                in class. Thanks James.
+                Andrew’s lessons made learning guitar fun and structured. I can
+                now read sheet music and play both classical and jazz pieces
+                confidently.
               </p>
             </div>
             <div class="card p-4 rounded-2xl flex flex-col gap-4">
@@ -246,10 +234,9 @@
                 <p class="tag dark rounded-full px-2 py-1">Student</p>
               </div>
               <p>
-                I needed help with maths because I don&apos;t like my teachers
-                but I didn&apos;t want to fail my final year exams. James really
-                knew how to explain things in a way that I could understand and
-                I ended up doing better than expected :D
+                From beginner chords to advanced techniques, Andrew helped me
+                improve steadily. I’m now comfortable performing solos and
+                improvising.
               </p>
             </div>
           </div>
@@ -260,10 +247,8 @@
                 <p class="tag dark rounded-full px-2 py-1">Student</p>
               </div>
               <p>
-                I wanted to find a tutor who could help advance my daughters
-                mathematics ability beyond her current age level and stimulate
-                her with more challenging material. James did an excellent job
-                of helping Olivia to build her enthusiam and ability in Maths.
+                Learning guitar online with Andrew has been fantastic. The
+                lessons are interactive, clear, and tailored to my pace.
               </p>
             </div>
             <div class="card p-4 rounded-2xl flex flex-col gap-4">
@@ -272,11 +257,9 @@
                 <p class="tag dark rounded-full px-2 py-1">Student</p>
               </div>
               <p>
-                I felt that school was starting to get more challenging and I
-                was unable to pass all my exams without some extra assistance.
-                My sessions with Bridget were very supportive and enjoyable and
-                it helped make completing all my homework and studying super
-                easy.
+                Andrew’s guidance helped me master jazz chords and soloing. I’ve
+                gained confidence performing in front of others and composing my
+                own music.
               </p>
             </div>
           </div>
@@ -290,7 +273,7 @@
           Send Me a message
         </p>
         <h3 class="text-5xl sm:text-6xl md:text-7xl mx-auto text-center">
-          +64 21 42 24 833
+          +1 519-217-4032
         </h3>
       </section>
     </main>
@@ -298,18 +281,42 @@
       <a
         target="_blank"
         href="https://www.linkedin.com/in/andrew-jos-stevenson/"
-        class="flex items-center gap-4 bg-blue-50"
+        class="flex items-center gap-4 bg-blue-50 rounded-full p-1 pr-4 border border-solid border-transparent hover:border-blue-400 duration-200"
       >
-        <div class="w-100 h-100 overflow-hidden rounded-xl">
-          <img
-            src="assets/andrew-oldmill.jpeg"
-            alt="Andrew Guitar"
-            class="w-full h-full object-cover object-center filter brightness-90 contrast-110 saturate-120 hue-rotate-40"
-          />
-        </div>
+        <img
+          src="assets/andrew-oldmill.jpeg"
+          alt="Andrew Guitar"
+          class="max-w-10 rounded-full"
+        />
         <p>LinkedIn</p>
-        <i className="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
       </a>
     </footer>
+    <script>
+      const button = document.getElementById("what-i-teach-btn");
+      const target = document.getElementById("maths");
+
+      button.addEventListener("click", () => {
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      // Replace with your email
+      const email = "andrew.jos.stevenson@gmail.com";
+      const subject = "Guitar Lesson Inquiry";
+      const body =
+        "Hi Andrew,%0D%0A%0D%0AI would like to book a guitar lesson. Please let me know the available times.%0D%0A%0D%0AThanks!";
+
+      // Hero section button
+      const heroBtn = document.getElementById("book-lesson-btn-hero");
+      heroBtn.addEventListener("click", () => {
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+      });
+
+      // Section button
+      const sectionBtn = document.getElementById("book-lesson-btn-section");
+      sectionBtn.addEventListener("click", () => {
+        window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
+      });
+    </script>
   </body>
 </html>
