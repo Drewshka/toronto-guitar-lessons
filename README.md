@@ -1,7 +1,14 @@
 # Toronto Guitar Lessons 🎸
 
 A modern, responsive landing page built with **Tailwind CSS** to promote private guitar lessons in Toronto.  
-The site highlights lesson offerings, student success stories, and provides clear calls-to-action for booking lessons.
+The site highlights lesson offerings, student success stories, and clear calls-to-action for booking lessons.
+
+---
+
+## 🌐 Live Demo
+
+👉 **Deployed Site:**  
+https://drewshka-guitar-lessons.netlify.app/
 
 ---
 
@@ -22,17 +29,4 @@ The site highlights lesson offerings, student success stories, and provides clea
 - 🧑‍🏫 One-on-one private instruction
 - 💻 In-person & online lessons
 - ⭐ Student testimonials
-- 📱 Fully responsive (mobile-first)
-- 🎨 Styled entirely with **Tailwind CSS**
-- ✨ Smooth scrolling interactions
-- 🔘 Interactive buttons (JavaScript-enhanced)
-
----
-
-## 🛠️ Built With
-
-- **HTML5**
-- **Tailwind CSS**
-- **Van**
-
-Project Site: drewshka-guitar-lessons.netlify.app
+- 📱 Fully responsive (mob
