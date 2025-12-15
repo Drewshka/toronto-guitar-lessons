@@ -29,4 +29,18 @@ https://drewshka-guitar-lessons.netlify.app/
 - 🧑‍🏫 One-on-one private instruction
 - 💻 In-person & online lessons
 - ⭐ Student testimonials
-- 📱 Fully responsive (mob
+- 📱 Fully responsive (mobile-first)
+- 🎨 Styled entirely with **Tailwind CSS**
+- ✨ Smooth scrolling interactions
+- 🔘 Interactive buttons (JavaScript-enhanced)
+
+---
+
+## 🛠️ Built With
+
+- **HTML5**
+- **Tailwind CSS**
+- **Vanilla JavaScript**
+- **Font Awesome** (icons)
+
+
